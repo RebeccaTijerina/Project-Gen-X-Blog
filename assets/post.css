@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Honk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns:  150px 150px;
+    grid-template-rows: 100px 40px 150px;
+    grid-template-areas:
+        "hd hd hd "
+        "nav nav nav"
+        "sd main main"
+        "sd main main";
+    height: 100vh;
+}   
+
+.header {
+    grid-area: hd;
+    background-color: #011419;
+    text-align: center;
+    font-family: bungee outline;
+    font-size: xx-large;
+    color: hotpink;
+}
+
+.nav-box {
+    grid-area: nav;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.nav__links li a:hover {
+    color: lime;
+}
+
+.sidebar{
+    grid-area: sd;
+    background-color: black;
+    text-align: center;
+    padding: 20px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: hotpink;
+}
+.social-media{
+    display: flex;
+    gap: 13px;
+    padding: 8px 10px 0 18px;   
+}
+
+.main-post{
+    grid-area: main;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: purple;
+    padding: 10px;
+}
+.li{
+    list-style-type: none;
+}
+
+.h1{
+    font-size: 35px;
+    color: purple;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+@media(max: 420px){
+    grid-template-areas: 
+    "hd hd"
+    "nav nav"
+    "sd main"
+    "sd main";    
+}
+
+

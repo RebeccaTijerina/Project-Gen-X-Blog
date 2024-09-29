@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Honk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 40px 125px 1fr 25px;
+    grid-template-areas:
+        "hd hd hd"
+        "nav nav nav"
+        "intro intro intro"
+        "card card card"
+        "ft ft ft";
+    height: 100vh;
+
+}
+
+.header {
+    grid-area: hd;
+    background-color: #011419;
+    text-align: center;
+    font-family: bungee outline;
+    font-size: xx-large;
+    color: hotpink;
+}
+
+.nav {
+    grid-area: nav;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+
+
+}
+
+.nav__links li a:hover {
+    color: lime;
+}
+
+.intro {
+    grid-area: intro;
+    font-size: 17px;
+    font-weight: bold;
+    color: lime;
+    text-align: center;
+    background-color: black;
+    padding: 0px 20px;
+}
+
+.card-container {
+    grid-area: card;
+    text-align: center;
+    padding: 10px;
+    background-color: #011419;
+
+}
+
+.h1 {
+    font-family: bungee outline;
+    font-weight: 800;
+    font-size: 30px;
+    color: hotpink;
+}
+
+.postcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+
+}
+
+.card {
+    border: 2px solid black;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    color: purple;
+    width: 300px;
+    height: 365px;
+    margin: 5px 15px;
+}
+
+p {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer {
+    grid-area: ft;
+    font-weight: 700;
+    color: hotpink;
+    background-color: #011419;
+
+
+}
