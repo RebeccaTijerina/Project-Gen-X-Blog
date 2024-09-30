@@ -23,10 +23,9 @@
     font-size: xx-large;
 }
 
-.nav {
+.nav-box {
     grid-area: nav;
     text-align: center;
-    background-color: hotpink;
 }
 
 .nav__links li {
@@ -35,32 +34,24 @@
     font-size: 20px;
 }
 
-.nav__links li a:hover {
-    color: lime;
-}
-
 .intro {
     grid-area: intro;
     font-size: 17px;
     font-weight: bold;
-    color: lime;
     text-align: center;
-    background-color: black;
     padding: 0px 20px;
 }
 
 .card-container {
     grid-area: card;
     text-align: center;
-    padding: 10px;
-    background-color: #011419;
+    padding: 10px; 
 }
 
 .h1 {
     font-family: bungee outline;
     font-weight: 800;
     font-size: 30px;
-    color: hotpink;
 }
 
 .postcards {
@@ -70,11 +61,8 @@
 }
 
 .card {
-    border: 2px solid black;
-    background-color: yellow;
     font-size: 16px;
     font-weight: bold;
-    color: purple;
     width: 300px;
     height: 365px;
     margin: 5px 15px;
@@ -88,6 +76,5 @@ p {
 .footer {
     grid-area: ft;
     font-weight: 700;
-    color: hotpink;
-    background-color: #011419;
+    
 }

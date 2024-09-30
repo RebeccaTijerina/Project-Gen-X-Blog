@@ -2,3 +2,48 @@
     background-color: black;
     color: hotpink;
 }
+
+.nav-box {
+    background-color: hotpink;
+}
+
+.nav__links li a:hover {
+    color: lime;
+}  
+
+.intro{
+    color: lime;
+    background-color: black;
+}
+
+.card-container{
+    background-color: black;
+}
+
+.h1{
+    color: hotpink; 
+}
+
+.sidebar{
+    background-color: black;
+    color: hotpink;
+}
+
+.main-post{
+    background-color: yellow;
+    color: purple;
+}
+.title-post{
+    color: purple;
+}
+
+.card{
+    border: 2px solid black;
+    background-color: yellow;
+    color: purple;
+}
+
+.footer{
+    color: hotpink;
+    background-color: black;
+}
