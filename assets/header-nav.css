@@ -1,0 +1,17 @@
+.header {
+    grid-area: hd;
+    text-align: center; 
+    font-family: bungee outline;                    
+    font-size: xx-large;
+}
+
+.nav-box {
+    grid-area: nav;
+    text-align: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}

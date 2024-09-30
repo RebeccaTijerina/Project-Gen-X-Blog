@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Honk&display=swap');
 @import url(/assets/post.css);
 @import url(/assets/styles-color.css);
+@import url(/assets/header-nav.css);
 * {
     margin: 0;
     padding: 0;
@@ -14,24 +15,6 @@
     grid-template-rows: 100px 40px 140px 1fr 25px;
     grid-template-areas: "hd hd hd" "nav nav nav" "intro intro intro" "card card card" "ft ft ft";
     height: 100vh;
-}
-
-.header {
-    grid-area: hd;
-    text-align: center;
-    font-family: bungee outline;
-    font-size: xx-large;
-}
-
-.nav-box {
-    grid-area: nav;
-    text-align: center;
-}
-
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-    font-size: 20px;
 }
 
 .intro {
