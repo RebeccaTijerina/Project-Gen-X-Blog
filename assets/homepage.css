@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Honk&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,14 +10,8 @@
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 40px 140px 1fr 25px;
-    grid-template-areas:
-        "hd hd hd"
-        "nav nav nav"
-        "intro intro intro"
-        "card card card"
-        "ft ft ft";
+    grid-template-areas: "hd hd hd" "nav nav nav" "intro intro intro" "card card card" "ft ft ft";
     height: 100vh;
-
 }
 
 .header {
@@ -37,12 +30,9 @@
 }
 
 .nav__links li {
-
     display: inline-block;
     padding: 0px 20px;
     font-size: 20px;
-
-
 }
 
 .nav__links li a:hover {
@@ -64,7 +54,6 @@
     text-align: center;
     padding: 10px;
     background-color: #011419;
-
 }
 
 .h1 {
@@ -78,9 +67,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-
-
 }
 
 .card {
@@ -104,6 +90,4 @@ p {
     font-weight: 700;
     color: hotpink;
     background-color: #011419;
-
-
 }
