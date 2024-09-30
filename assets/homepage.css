@@ -60,3 +60,13 @@ p {
     grid-area: ft;
     font-weight: 700;   
 }
+@media(max-width: 320px){
+    .main-container{
+        grid-template-areas: 
+        "hd hd"
+        "nav nav"
+        "intro intro"
+        "card card"
+        "ft ft";
+    }
+}

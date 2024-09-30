@@ -48,10 +48,12 @@
     text-decoration: underline;
 }
 
-@media(max: 420px) {
-    grid-template-areas:
-    "hd hd"
-    "nav nav"
-    "sd main"
-    "sd main";
-}    
+@media(max-width: 320px){
+    .post-container{
+        grid-template-areas: 
+        "hd hd"
+        "nav nav"
+        "sd main"
+        "sd main";
+    }
+}
