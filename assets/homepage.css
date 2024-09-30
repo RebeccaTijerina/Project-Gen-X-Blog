@@ -63,7 +63,7 @@ p {
 @media(max-width: 320px){
     .main-container{
         grid-template-areas: 
-        "hd hd"
+        "hd hd "
         "nav nav"
         "intro intro"
         "card card"
